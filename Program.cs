@@ -14,7 +14,7 @@ namespace SharedFolderPermissions
                 Console.WriteLine("Enter the path of the root folder:");
                 string rootFolderPath = Console.ReadLine();
                 //read or read write
-                Console.WriteLine("What permission do you want to grant read or readwrite? (r / rw)");
+                Console.WriteLine("What permission do you want to grant read or read-write? (r / rw)");
                 string permission = Console.ReadLine();
                 string toprint = permission == "r" ? "read" : "read/write";
                 Console.WriteLine("Enter the folder name you want to modify to " + toprint + ":");
